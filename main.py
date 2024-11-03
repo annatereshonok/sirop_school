@@ -19,8 +19,7 @@ from telegram_bot_calendar import DetailedTelegramCalendar
 load_dotenv()
 
 API_TOKEN = os.getenv('API_TOKEN')
-ADMIN_ID = '249479528'
-# ADMIN_ID = os.getenv('ADMIN_ID')  # ID администратора, кому будут отправляться заявки
+ADMIN_ID = os.getenv('ADMIN_ID')  # ID администратора, кому будут отправляться заявки
 GOOGLE_SHEET_ID = os.getenv('GOOGLE_SHEET_ID')  # ID таблицы Google Sheets
 STICKER_FILE_ID1 = os.getenv('STICKER_FILE_ID1')
 STICKER_FILE_ID2 = os.getenv('STICKER_FILE_ID2')
